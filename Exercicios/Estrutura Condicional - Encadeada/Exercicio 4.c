@@ -37,6 +37,6 @@ int main()
 
         printf("Algo foi preenchido incorretamente");
     }
-
+    system("Pause");
     return 0;
 }

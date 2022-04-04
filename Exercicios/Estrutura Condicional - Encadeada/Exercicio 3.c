@@ -43,6 +43,6 @@ int main()
     {
         printf("Digite um codigo valido");
     }
-
+    system("Pause");
     return 0;
 }

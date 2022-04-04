@@ -39,6 +39,6 @@ int main()
     {
         printf("Fora de Intervalo");
     }
-
+    system("Pause");
     return 0;
 }
