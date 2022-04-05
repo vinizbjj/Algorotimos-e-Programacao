@@ -25,19 +25,19 @@ int main()
 
     if (n >= 25.01 && n <= 25.50)
     {
-        printf("Intervalo [25.50]");
+        printf("Intervalo [25.50]\n");
     }
     else if (n >= 0.25 && n <= 25.00)
     {
-        printf("Intervalo [25.00]");
+        printf("Intervalo [25.00]\n");
     }
     else if (n >= 75 && n <= 100)
     {
-        printf("Intervalo [75, 100]");
+        printf("Intervalo [75, 100]\n");
     }
     else
     {
-        printf("Fora de Intervalo");
+        printf("Fora de Intervalo\n");
     }
     system("Pause");
     return 0;

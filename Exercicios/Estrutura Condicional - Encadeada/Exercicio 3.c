@@ -16,7 +16,7 @@ int cod, qnt;
 
 int main()
 {
-
+    printf("Digite o codigo do item e a quantidade\n");
     scanf("%d %d", &cod, &qnt);
 
     if (cod == 1)
@@ -41,7 +41,7 @@ int main()
     }
     else
     {
-        printf("Digite um codigo valido");
+        printf("\nDigite um codigo valido\n");
     }
     system("Pause");
     return 0;
