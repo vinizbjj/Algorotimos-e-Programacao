@@ -20,27 +20,27 @@ int main()
 
     if (n1 < n2 && n2 < n3)
     {
-        printf("numeros %.2d %.2d %.2d ", n1, n2, n3);
+        printf("\nnumeros %.2d %.2d %.2d \n", n1, n2, n3);
     }
     else if (n1 < n3 && n3 < n2)
     {
-        printf("numeros %.2d %.2d %.2d ", n1, n3, n2);
+        printf("\nnumeros %.2d %.2d %.2d \n", n1, n3, n2);
     }
     else if (n2 < n1 && n1 < n3)
     {
-        printf("numeros %.2d %.2d %.2d ", n2, n1, n3);
+        printf("\nnumeros %.2d %.2d %.2d \n", n2, n1, n3);
     }
     else if (n2 < n3 && n3 < n1)
     {
-        printf("numeros %.2d %.2d %.2d ", n2, n3, n1);
+        printf("\nnumeros %.2d %.2d %.2d \n", n2, n3, n1);
     }
     else if (n3 < n1 && n1 < n2)
     {
-        printf("numeros %.2d %.2d %.2d ", n3, n1, n2);
+        printf("\nnumeros %.2d %.2d %.2d \n", n3, n1, n2);
     }
     else if (n3 < n2 && n2 < n1)
     {
-        printf("numeros %.2d %.2d %.2d ", n1, n3, n2);
+        printf("\nnumeros %.2d %.2d %.2d \n", n1, n3, n2);
     }
     else if (n1 == n2 || n1 == n3 || n1 == n2 && n3 || n2 == n3)
     {
@@ -51,7 +51,7 @@ int main()
         printf("\nAlgo deu errado, reveja o codigo\n");
     }
 
-    system("Pause");
+    system("\nPause");
 
 }
     return 0;
