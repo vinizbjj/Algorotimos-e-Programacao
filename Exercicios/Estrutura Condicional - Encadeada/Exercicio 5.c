@@ -51,7 +51,7 @@ int main()
         printf("\nAlgo deu errado, reveja o codigo\n");
     }
 
-    system("\nPause");
+    system("\n \nPause");
 
 }
     return 0;
